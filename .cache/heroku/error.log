@@ -1,0 +1,79 @@
+2019-11-23T11:06:18.520Z Warning: -version is not a heroku command.
+2019-11-23T11:06:18.520Z     at Object.warn (/usr/lib/heroku/node_modules/@oclif/errors/lib/index.js:33:15)
+2019-11-23T11:06:18.520Z     at Object.warn (/usr/lib/heroku/node_modules/@oclif/config/lib/config.js:115:42)
+2019-11-23T11:06:18.520Z     at Object.hook (/usr/lib/heroku/node_modules/@oclif/plugin-not-found/lib/index.js:25:10)
+2019-11-23T11:06:18.520Z     at async /usr/lib/heroku/node_modules/@oclif/config/lib/config.js:129:21
+2019-11-23T11:06:18.520Z     at async Promise.all (index 0)
+2019-11-23T11:06:18.520Z     at async Promise.all (index 33)
+2019-11-23T11:06:18.520Z     at async Config.runHook (/usr/lib/heroku/node_modules/@oclif/config/lib/config.js:139:9)
+2019-11-23T11:06:18.520Z     at async Config.runCommand (/usr/lib/heroku/node_modules/@oclif/config/lib/config.js:146:13)
+2019-11-23T11:06:18.520Z     at async Main.run (/usr/lib/heroku/node_modules/@oclif/command/lib/main.js:21:9)
+2019-11-23T11:06:18.520Z     at async Main._run (/usr/lib/heroku/node_modules/@oclif/command/lib/command.js:44:20)
+2021-02-12T23:44:53.461Z Warning: reanme is not a heroku command.
+2021-02-12T23:44:53.461Z     at Object.warn (/usr/lib/heroku/node_modules/@oclif/errors/lib/index.js:33:15)
+2021-02-12T23:44:53.461Z     at Object.warn (/usr/lib/heroku/node_modules/@oclif/config/lib/config.js:115:42)
+2021-02-12T23:44:53.461Z     at Object.hook (/usr/lib/heroku/node_modules/@oclif/plugin-not-found/lib/index.js:25:10)
+2021-02-12T23:44:53.461Z     at async /usr/lib/heroku/node_modules/@oclif/config/lib/config.js:129:21
+2021-02-12T23:44:53.461Z     at async Promise.all (index 0)
+2021-02-12T23:44:53.461Z     at async Promise.all (index 33)
+2021-02-12T23:44:53.462Z     at async Config.runHook (/usr/lib/heroku/node_modules/@oclif/config/lib/config.js:139:9)
+2021-02-12T23:44:53.462Z     at async Config.runCommand (/usr/lib/heroku/node_modules/@oclif/config/lib/config.js:146:13)
+2021-02-12T23:44:53.462Z     at async Main.run (/usr/lib/heroku/node_modules/@oclif/command/lib/main.js:21:9)
+2021-02-12T23:44:53.462Z     at async Main._run (/usr/lib/heroku/node_modules/@oclif/command/lib/command.js:44:20)
+2021-02-12T23:44:58.379Z Error: Run heroku help for a list of available commands.
+2021-02-12T23:44:58.379Z     at Object.error (/usr/lib/heroku/node_modules/@oclif/errors/lib/index.js:22:17)
+2021-02-12T23:44:58.379Z     at Object.error (/usr/lib/heroku/node_modules/@oclif/config/lib/config.js:113:30)
+2021-02-12T23:44:58.379Z     at Object.hook (/usr/lib/heroku/node_modules/@oclif/plugin-not-found/lib/index.js:39:10)
+2021-02-12T23:45:50.236Z Error: Invalid buildpack ``
+2021-02-12T23:45:50.236Z Error ID: invalid_params
+2021-02-12T23:45:50.236Z     at Function.request (/usr/lib/heroku/node_modules/@heroku-cli/command/lib/api-client.js:93:27)
+2021/02/12 23:49:33 Error: Error opening web browser.
+Error: Exited with code 3
+
+Manually visit https://leo-weibo.herokuapp.com/ in your browser.
+    at /usr/lib/heroku/node_modules/heroku-cli-util/lib/open.js:12:16
+    at ChildProcess.<anonymous> (/usr/lib/heroku/node_modules/opn/index.js:86:5)
+    at Object.onceWrapper (events.js:300:26)
+    at ChildProcess.emit (events.js:210:5)
+    at maybeClose (internal/child_process.js:1021:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:283:5)
+2021/02/12 23:57:13 Error: Error opening web browser.
+Error: Exited with code 3
+
+Manually visit https://leo-weibo.herokuapp.com/ in your browser.
+    at /usr/lib/heroku/node_modules/heroku-cli-util/lib/open.js:12:16
+    at ChildProcess.<anonymous> (/usr/lib/heroku/node_modules/opn/index.js:86:5)
+    at Object.onceWrapper (events.js:300:26)
+    at ChildProcess.emit (events.js:210:5)
+    at maybeClose (internal/child_process.js:1021:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:283:5)
+2021-02-13T00:57:39.065Z Warning: update with "sudo apt update && sudo apt install heroku"
+2021-02-13T00:57:39.065Z     at Object.warn (/usr/lib/heroku/node_modules/@oclif/errors/lib/index.js:33:15)
+2021-02-13T00:57:39.065Z     at UpdateCommand.warn (/usr/lib/heroku/node_modules/@oclif/plugin-update/node_modules/@oclif/command/lib/command.js:45:26)
+2021-02-13T00:57:39.065Z     at UpdateCommand.skipUpdate (/usr/lib/heroku/node_modules/@oclif/plugin-update/lib/commands/update.js:111:22)
+2021-02-13T00:57:39.065Z     at UpdateCommand.run (/usr/lib/heroku/node_modules/@oclif/plugin-update/lib/commands/update.js:27:33)
+2021-02-13T00:57:39.065Z     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2021-02-13T00:57:39.065Z     at async UpdateCommand._run (/usr/lib/heroku/node_modules/@oclif/plugin-update/node_modules/@oclif/command/lib/command.js:34:20)
+2021-02-13T00:57:39.065Z     at async Config.runCommand (/usr/lib/heroku/node_modules/@oclif/config/lib/config.js:151:9)
+2021-02-13T00:57:39.065Z     at async Main.run (/usr/lib/heroku/node_modules/@oclif/command/lib/main.js:21:9)
+2021-02-13T00:57:39.065Z     at async Main._run (/usr/lib/heroku/node_modules/@oclif/command/lib/command.js:44:20)
+2021/02/14 04:57:31 Error: Error opening web browser.
+Error: Exited with code 3
+
+Manually visit https://leo-weibo.herokuapp.com/ in your browser.
+    at /usr/lib/heroku/node_modules/heroku-cli-util/lib/open.js:12:16
+    at ChildProcess.<anonymous> (/usr/lib/heroku/node_modules/opn/index.js:86:5)
+    at Object.onceWrapper (events.js:300:26)
+    at ChildProcess.emit (events.js:210:5)
+    at maybeClose (internal/child_process.js:1021:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:283:5)
+2021/02/14 23:51:27 Error: Error opening web browser.
+Error: Exited with code 3
+
+Manually visit https://leo-weibo.herokuapp.com/ in your browser.
+    at /usr/lib/heroku/node_modules/heroku-cli-util/lib/open.js:12:16
+    at ChildProcess.<anonymous> (/usr/lib/heroku/node_modules/opn/index.js:86:5)
+    at Object.onceWrapper (events.js:300:26)
+    at ChildProcess.emit (events.js:210:5)
+    at maybeClose (internal/child_process.js:1021:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:283:5)

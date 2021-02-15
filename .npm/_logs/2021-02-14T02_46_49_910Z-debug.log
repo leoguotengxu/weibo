@@ -1,0 +1,447 @@
+0 verbose cli [
+0 verbose cli   '/home/vagrant/.nvm/versions/node/v15.8.0/bin/node',
+0 verbose cli   '/home/vagrant/.nvm/versions/node/v15.8.0/bin/npm',
+0 verbose cli   'install',
+0 verbose cli   'vue-template-compiler',
+0 verbose cli   '--save-dev',
+0 verbose cli   '--production=false'
+0 verbose cli ]
+1 info using npm@7.5.1
+2 info using node@v15.8.0
+3 timing config:load:defaults Completed in 3ms
+4 timing config:load:file:/home/vagrant/.nvm/versions/node/v15.8.0/lib/node_modules/npm/npmrc Completed in 1ms
+5 timing config:load:builtin Completed in 1ms
+6 timing config:load:cli Completed in 6ms
+7 timing config:load:env Completed in 2ms
+8 timing config:load:file:/home/vagrant/Code/weibo/.npmrc Completed in 1ms
+9 timing config:load:project Completed in 3ms
+10 timing config:load:file:/home/vagrant/.npmrc Completed in 2ms
+11 timing config:load:user Completed in 2ms
+12 timing config:load:file:/home/vagrant/.nvm/versions/node/v15.8.0/etc/npmrc Completed in 0ms
+13 timing config:load:global Completed in 0ms
+14 timing config:load:cafile Completed in 1ms
+15 timing config:load:validate Completed in 5ms
+16 timing config:load:setUserAgent Completed in 0ms
+17 timing config:load:setEnvs Completed in 2ms
+18 timing config:load Completed in 26ms
+19 verbose npm-session ef3803d8f037e9a1
+20 timing npm:load Completed in 47ms
+21 timing arborist:ctor Completed in 2ms
+22 timing idealTree:init Completed in 2730ms
+23 timing idealTree:userRequests Completed in 15ms
+24 silly idealTree buildDeps
+25 silly fetch manifest vue-template-compiler@*
+26 http fetch GET 304 https://registry.npm.taobao.org/vue-template-compiler 4651ms (from cache)
+27 silly placeDep ROOT vue-template-compiler@2.6.12 OK for:  want: *
+28 silly fetch manifest de-indent@^1.0.2
+29 http fetch GET 304 https://registry.npm.taobao.org/de-indent 92ms (from cache)
+30 timing idealTree:#root Completed in 4783ms
+31 silly placeDep ROOT de-indent@1.0.2 OK for: vue-template-compiler@2.6.12 want: ^1.0.2
+32 timing idealTree:node_modules/vue-template-compiler Completed in 12ms
+33 timing idealTree:node_modules/de-indent Completed in 0ms
+34 timing idealTree:buildDeps Completed in 4799ms
+35 timing idealTree:fixDepFlags Completed in 67ms
+36 timing idealTree Completed in 7671ms
+37 timing reify:loadTrees Completed in 7674ms
+38 timing reify:diffTrees Completed in 174ms
+39 silly reify mark retired [
+39 silly reify   '/home/vagrant/Code/weibo/node_modules/acorn',
+39 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/acorn'
+39 silly reify ]
+40 silly reify mark retired [
+40 silly reify   '/home/vagrant/Code/weibo/node_modules/adjust-sourcemap-loader/node_modules/json5',
+40 silly reify   '/home/vagrant/Code/weibo/node_modules/adjust-sourcemap-loader/node_modules/.bin/json5'
+40 silly reify ]
+41 silly reify mark retired [
+41 silly reify   '/home/vagrant/Code/weibo/node_modules/ansi-html',
+41 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/ansi-html'
+41 silly reify ]
+42 silly reify mark retired [
+42 silly reify   '/home/vagrant/Code/weibo/node_modules/atob',
+42 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/atob'
+42 silly reify ]
+43 silly reify mark retired [
+43 silly reify   '/home/vagrant/Code/weibo/node_modules/autoprefixer',
+43 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/autoprefixer'
+43 silly reify ]
+44 silly reify mark retired [
+44 silly reify   '/home/vagrant/Code/weibo/node_modules/browserslist',
+44 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/browserslist'
+44 silly reify ]
+45 silly reify mark retired [
+45 silly reify   '/home/vagrant/Code/weibo/node_modules/concat',
+45 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/concat'
+45 silly reify ]
+46 silly reify mark retired [
+46 silly reify   '/home/vagrant/Code/weibo/node_modules/core-js-compat/node_modules/semver',
+46 silly reify   '/home/vagrant/Code/weibo/node_modules/core-js-compat/node_modules/.bin/semver'
+46 silly reify ]
+47 silly reify mark retired [
+47 silly reify   '/home/vagrant/Code/weibo/node_modules/cross-env',
+47 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/cross-env',
+47 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/cross-env-shell'
+47 silly reify ]
+48 silly reify mark retired [
+48 silly reify   '/home/vagrant/Code/weibo/node_modules/cssesc',
+48 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/cssesc'
+48 silly reify ]
+49 silly reify mark retired [
+49 silly reify   '/home/vagrant/Code/weibo/node_modules/errno',
+49 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/errno'
+49 silly reify ]
+50 silly reify mark retired [
+50 silly reify   '/home/vagrant/Code/weibo/node_modules/esprima',
+50 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/esparse',
+50 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/esvalidate'
+50 silly reify ]
+51 silly reify mark retired [
+51 silly reify   '/home/vagrant/Code/weibo/node_modules/he',
+51 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/he'
+51 silly reify ]
+52 silly reify mark retired [
+52 silly reify   '/home/vagrant/Code/weibo/node_modules/html-minifier',
+52 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/html-minifier'
+52 silly reify ]
+53 silly reify mark retired [
+53 silly reify   '/home/vagrant/Code/weibo/node_modules/import-local',
+53 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/import-local-fixture'
+53 silly reify ]
+54 silly reify mark retired [
+54 silly reify   '/home/vagrant/Code/weibo/node_modules/is-docker',
+54 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/is-docker'
+54 silly reify ]
+55 silly reify mark retired [
+55 silly reify   '/home/vagrant/Code/weibo/node_modules/js-yaml',
+55 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/js-yaml'
+55 silly reify ]
+56 silly reify mark retired [
+56 silly reify   '/home/vagrant/Code/weibo/node_modules/jsesc',
+56 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/jsesc'
+56 silly reify ]
+57 silly reify mark retired [
+57 silly reify   '/home/vagrant/Code/weibo/node_modules/json5',
+57 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/json5'
+57 silly reify ]
+58 silly reify mark retired [
+58 silly reify   '/home/vagrant/Code/weibo/node_modules/laravel-mix/node_modules/terser',
+58 silly reify   '/home/vagrant/Code/weibo/node_modules/laravel-mix/node_modules/.bin/terser'
+58 silly reify ]
+59 silly reify mark retired [
+59 silly reify   '/home/vagrant/Code/weibo/node_modules/make-dir/node_modules/semver',
+59 silly reify   '/home/vagrant/Code/weibo/node_modules/make-dir/node_modules/.bin/semver'
+59 silly reify ]
+60 silly reify mark retired [
+60 silly reify   '/home/vagrant/Code/weibo/node_modules/miller-rabin',
+60 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/miller-rabin'
+60 silly reify ]
+61 silly reify mark retired [
+61 silly reify   '/home/vagrant/Code/weibo/node_modules/mime',
+61 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/mime'
+61 silly reify ]
+62 silly reify mark retired [
+62 silly reify   '/home/vagrant/Code/weibo/node_modules/mkdirp',
+62 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/mkdirp'
+62 silly reify ]
+63 silly reify mark retired [
+63 silly reify   '/home/vagrant/Code/weibo/node_modules/multicast-dns',
+63 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/multicast-dns'
+63 silly reify ]
+64 silly reify mark retired [
+64 silly reify   '/home/vagrant/Code/weibo/node_modules/node-notifier/node_modules/uuid',
+64 silly reify   '/home/vagrant/Code/weibo/node_modules/node-notifier/node_modules/.bin/uuid'
+64 silly reify ]
+65 silly reify mark retired [
+65 silly reify   '/home/vagrant/Code/weibo/node_modules/node-notifier/node_modules/which',
+65 silly reify   '/home/vagrant/Code/weibo/node_modules/node-notifier/node_modules/.bin/node-which'
+65 silly reify ]
+66 silly reify mark retired [
+66 silly reify   '/home/vagrant/Code/weibo/node_modules/node-notifier/node_modules/semver',
+66 silly reify   '/home/vagrant/Code/weibo/node_modules/node-notifier/node_modules/.bin/semver'
+66 silly reify ]
+67 silly reify mark retired [
+67 silly reify   '/home/vagrant/Code/weibo/node_modules/prettier',
+67 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/prettier'
+67 silly reify ]
+68 silly reify mark retired [
+68 silly reify   '/home/vagrant/Code/weibo/node_modules/regjsparser',
+68 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/regjsparser'
+68 silly reify ]
+69 silly reify mark retired [
+69 silly reify   '/home/vagrant/Code/weibo/node_modules/rimraf',
+69 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/rimraf'
+69 silly reify ]
+70 silly reify mark retired [
+70 silly reify   '/home/vagrant/Code/weibo/node_modules/sass-loader/node_modules/semver',
+70 silly reify   '/home/vagrant/Code/weibo/node_modules/sass-loader/node_modules/.bin/semver'
+70 silly reify ]
+71 silly reify mark retired [
+71 silly reify   '/home/vagrant/Code/weibo/node_modules/sass',
+71 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/sass'
+71 silly reify ]
+72 silly reify mark retired [
+72 silly reify   '/home/vagrant/Code/weibo/node_modules/semver',
+72 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/semver'
+72 silly reify ]
+73 silly reify mark retired [
+73 silly reify   '/home/vagrant/Code/weibo/node_modules/send/node_modules/mime',
+73 silly reify   '/home/vagrant/Code/weibo/node_modules/send/node_modules/.bin/mime'
+73 silly reify ]
+74 silly reify mark retired [
+74 silly reify   '/home/vagrant/Code/weibo/node_modules/sha.js',
+74 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/sha.js'
+74 silly reify ]
+75 silly reify mark retired [
+75 silly reify   '/home/vagrant/Code/weibo/node_modules/svgo',
+75 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/svgo'
+75 silly reify ]
+76 silly reify mark retired [
+76 silly reify   '/home/vagrant/Code/weibo/node_modules/terser',
+76 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/terser'
+76 silly reify ]
+77 silly reify mark retired [
+77 silly reify   '/home/vagrant/Code/weibo/node_modules/uglify-js',
+77 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/uglifyjs'
+77 silly reify ]
+78 silly reify mark retired [
+78 silly reify   '/home/vagrant/Code/weibo/node_modules/uuid',
+78 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/uuid'
+78 silly reify ]
+79 silly reify mark retired [
+79 silly reify   '/home/vagrant/Code/weibo/node_modules/webpack',
+79 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/webpack'
+79 silly reify ]
+80 silly reify mark retired [
+80 silly reify   '/home/vagrant/Code/weibo/node_modules/webpack-cli',
+80 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/webpack-cli'
+80 silly reify ]
+81 silly reify mark retired [
+81 silly reify   '/home/vagrant/Code/weibo/node_modules/webpack-dev-server',
+81 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/webpack-dev-server'
+81 silly reify ]
+82 silly reify mark retired [
+82 silly reify   '/home/vagrant/Code/weibo/node_modules/which',
+82 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/which'
+82 silly reify ]
+83 silly reify mark retired [
+83 silly reify   '/home/vagrant/Code/weibo/node_modules/@babel/core/node_modules/json5',
+83 silly reify   '/home/vagrant/Code/weibo/node_modules/@babel/core/node_modules/.bin/json5'
+83 silly reify ]
+84 silly reify mark retired [
+84 silly reify   '/home/vagrant/Code/weibo/node_modules/@babel/parser',
+84 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/parser'
+84 silly reify ]
+85 silly reify moves {
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/acorn': '/home/vagrant/Code/weibo/node_modules/.acorn-6roYPuVQ',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/acorn': '/home/vagrant/Code/weibo/node_modules/.bin/.acorn-3Xyso6TT',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/adjust-sourcemap-loader/node_modules/json5': '/home/vagrant/Code/weibo/node_modules/adjust-sourcemap-loader/node_modules/.json5-0jg2X4lK',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/adjust-sourcemap-loader/node_modules/.bin/json5': '/home/vagrant/Code/weibo/node_modules/adjust-sourcemap-loader/node_modules/.bin/.json5-WAS862BG',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/ansi-html': '/home/vagrant/Code/weibo/node_modules/.ansi-html-OzufJsLR',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/ansi-html': '/home/vagrant/Code/weibo/node_modules/.bin/.ansi-html-oi3OoOuT',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/atob': '/home/vagrant/Code/weibo/node_modules/.atob-vB0sLv8j',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/atob': '/home/vagrant/Code/weibo/node_modules/.bin/.atob-RmBlWjgq',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/autoprefixer': '/home/vagrant/Code/weibo/node_modules/.autoprefixer-v7OYSex5',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/autoprefixer': '/home/vagrant/Code/weibo/node_modules/.bin/.autoprefixer-zVY35zZk',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/browserslist': '/home/vagrant/Code/weibo/node_modules/.browserslist-fQRKo0aS',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/browserslist': '/home/vagrant/Code/weibo/node_modules/.bin/.browserslist-cC3rba7o',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/concat': '/home/vagrant/Code/weibo/node_modules/.concat-OhdvieNk',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/concat': '/home/vagrant/Code/weibo/node_modules/.bin/.concat-nyUltPDD',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/core-js-compat/node_modules/semver': '/home/vagrant/Code/weibo/node_modules/core-js-compat/node_modules/.semver-Jh01Xh93',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/core-js-compat/node_modules/.bin/semver': '/home/vagrant/Code/weibo/node_modules/core-js-compat/node_modules/.bin/.semver-1S8FYRg7',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/cross-env': '/home/vagrant/Code/weibo/node_modules/.cross-env-Hpniryvr',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/cross-env': '/home/vagrant/Code/weibo/node_modules/.bin/.cross-env-S3t0V99c',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/cross-env-shell': '/home/vagrant/Code/weibo/node_modules/.bin/.cross-env-shell-c0U6nmz6',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/cssesc': '/home/vagrant/Code/weibo/node_modules/.cssesc-cbwHlBY6',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/cssesc': '/home/vagrant/Code/weibo/node_modules/.bin/.cssesc-9sVOfHtW',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/errno': '/home/vagrant/Code/weibo/node_modules/.errno-drDE7VEu',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/errno': '/home/vagrant/Code/weibo/node_modules/.bin/.errno-yyoMQWf8',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/esprima': '/home/vagrant/Code/weibo/node_modules/.esprima-sEm30lcZ',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/esparse': '/home/vagrant/Code/weibo/node_modules/.bin/.esparse-UE2tVZhK',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/esvalidate': '/home/vagrant/Code/weibo/node_modules/.bin/.esvalidate-lHMGJpuo',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/he': '/home/vagrant/Code/weibo/node_modules/.he-EMxCSO3P',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/he': '/home/vagrant/Code/weibo/node_modules/.bin/.he-Om2wWto3',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/html-minifier': '/home/vagrant/Code/weibo/node_modules/.html-minifier-9RVgro1V',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/html-minifier': '/home/vagrant/Code/weibo/node_modules/.bin/.html-minifier-CdQYJ4Yu',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/import-local': '/home/vagrant/Code/weibo/node_modules/.import-local-MpPf6WTA',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/import-local-fixture': '/home/vagrant/Code/weibo/node_modules/.bin/.import-local-fixture-Wkq3mcla',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/is-docker': '/home/vagrant/Code/weibo/node_modules/.is-docker-tEJ3oYW4',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/is-docker': '/home/vagrant/Code/weibo/node_modules/.bin/.is-docker-1mNq5BU4',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/js-yaml': '/home/vagrant/Code/weibo/node_modules/.js-yaml-9Mx4E0nj',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/js-yaml': '/home/vagrant/Code/weibo/node_modules/.bin/.js-yaml-dGk1DP0n',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/jsesc': '/home/vagrant/Code/weibo/node_modules/.jsesc-ChA8SPIg',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/jsesc': '/home/vagrant/Code/weibo/node_modules/.bin/.jsesc-eeKtO6Y8',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/json5': '/home/vagrant/Code/weibo/node_modules/.json5-ZzrWf14g',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/json5': '/home/vagrant/Code/weibo/node_modules/.bin/.json5-8Tzv8FTw',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/laravel-mix/node_modules/terser': '/home/vagrant/Code/weibo/node_modules/laravel-mix/node_modules/.terser-XlpKhWXD',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/laravel-mix/node_modules/.bin/terser': '/home/vagrant/Code/weibo/node_modules/laravel-mix/node_modules/.bin/.terser-tFDs4iqC',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/make-dir/node_modules/semver': '/home/vagrant/Code/weibo/node_modules/make-dir/node_modules/.semver-McXgs7aY',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/make-dir/node_modules/.bin/semver': '/home/vagrant/Code/weibo/node_modules/make-dir/node_modules/.bin/.semver-4KfTgTjS',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/miller-rabin': '/home/vagrant/Code/weibo/node_modules/.miller-rabin-Fm3AGYHN',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/miller-rabin': '/home/vagrant/Code/weibo/node_modules/.bin/.miller-rabin-ui9j6Bet',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/mime': '/home/vagrant/Code/weibo/node_modules/.mime-uI57yD28',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/mime': '/home/vagrant/Code/weibo/node_modules/.bin/.mime-wygVonhm',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/mkdirp': '/home/vagrant/Code/weibo/node_modules/.mkdirp-nY3xIQFQ',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/mkdirp': '/home/vagrant/Code/weibo/node_modules/.bin/.mkdirp-Di4FYQQA',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/multicast-dns': '/home/vagrant/Code/weibo/node_modules/.multicast-dns-ALMTwiaE',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/multicast-dns': '/home/vagrant/Code/weibo/node_modules/.bin/.multicast-dns-LFRkReIg',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/node-notifier/node_modules/uuid': '/home/vagrant/Code/weibo/node_modules/node-notifier/node_modules/.uuid-pexDwLhW',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/node-notifier/node_modules/.bin/uuid': '/home/vagrant/Code/weibo/node_modules/node-notifier/node_modules/.bin/.uuid-SuGzEVqh',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/node-notifier/node_modules/which': '/home/vagrant/Code/weibo/node_modules/node-notifier/node_modules/.which-We2FmWf9',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/node-notifier/node_modules/.bin/node-which': '/home/vagrant/Code/weibo/node_modules/node-notifier/node_modules/.bin/.node-which-d2y9rKrv',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/node-notifier/node_modules/semver': '/home/vagrant/Code/weibo/node_modules/node-notifier/node_modules/.semver-xkMoxRwv',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/node-notifier/node_modules/.bin/semver': '/home/vagrant/Code/weibo/node_modules/node-notifier/node_modules/.bin/.semver-7bUKcstx',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/prettier': '/home/vagrant/Code/weibo/node_modules/.prettier-7NG71cCZ',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/prettier': '/home/vagrant/Code/weibo/node_modules/.bin/.prettier-4AADQoWi',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/regjsparser': '/home/vagrant/Code/weibo/node_modules/.regjsparser-HqJnaoD0',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/regjsparser': '/home/vagrant/Code/weibo/node_modules/.bin/.regjsparser-7DPJmTqR',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/rimraf': '/home/vagrant/Code/weibo/node_modules/.rimraf-W0oJlszP',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/rimraf': '/home/vagrant/Code/weibo/node_modules/.bin/.rimraf-D5mG9TSX',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/sass-loader/node_modules/semver': '/home/vagrant/Code/weibo/node_modules/sass-loader/node_modules/.semver-cHIFj5s5',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/sass-loader/node_modules/.bin/semver': '/home/vagrant/Code/weibo/node_modules/sass-loader/node_modules/.bin/.semver-OrRkOZNS',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/sass': '/home/vagrant/Code/weibo/node_modules/.sass-j0jKReqD',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/sass': '/home/vagrant/Code/weibo/node_modules/.bin/.sass-t1xZx1HP',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/semver': '/home/vagrant/Code/weibo/node_modules/.semver-kMrWcajw',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/semver': '/home/vagrant/Code/weibo/node_modules/.bin/.semver-a8iBlEXk',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/send/node_modules/mime': '/home/vagrant/Code/weibo/node_modules/send/node_modules/.mime-s62v8yRm',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/send/node_modules/.bin/mime': '/home/vagrant/Code/weibo/node_modules/send/node_modules/.bin/.mime-JUqZ71vd',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/sha.js': '/home/vagrant/Code/weibo/node_modules/.sha.js-cfdzZ2gN',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/sha.js': '/home/vagrant/Code/weibo/node_modules/.bin/.sha.js-ka9lacjV',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/svgo': '/home/vagrant/Code/weibo/node_modules/.svgo-uA13kLih',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/svgo': '/home/vagrant/Code/weibo/node_modules/.bin/.svgo-Y7mDQgQJ',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/terser': '/home/vagrant/Code/weibo/node_modules/.terser-gwyLmyRA',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/terser': '/home/vagrant/Code/weibo/node_modules/.bin/.terser-8y2DTZlq',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/uglify-js': '/home/vagrant/Code/weibo/node_modules/.uglify-js-3aumQ8rk',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/uglifyjs': '/home/vagrant/Code/weibo/node_modules/.bin/.uglifyjs-PEHDMcqf',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/uuid': '/home/vagrant/Code/weibo/node_modules/.uuid-dueqK1yM',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/uuid': '/home/vagrant/Code/weibo/node_modules/.bin/.uuid-XfyJlIEY',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/webpack': '/home/vagrant/Code/weibo/node_modules/.webpack-zd3e7T0r',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/webpack': '/home/vagrant/Code/weibo/node_modules/.bin/.webpack-Z4PLGfBW',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/webpack-cli': '/home/vagrant/Code/weibo/node_modules/.webpack-cli-UMjJO2n6',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/webpack-cli': '/home/vagrant/Code/weibo/node_modules/.bin/.webpack-cli-n5OK1ZHS',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/webpack-dev-server': '/home/vagrant/Code/weibo/node_modules/.webpack-dev-server-SIpBpw6q',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/webpack-dev-server': '/home/vagrant/Code/weibo/node_modules/.bin/.webpack-dev-server-ocu6BBQO',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/which': '/home/vagrant/Code/weibo/node_modules/.which-9JU6z8wv',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/which': '/home/vagrant/Code/weibo/node_modules/.bin/.which-DgvryVnl',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/@babel/core/node_modules/json5': '/home/vagrant/Code/weibo/node_modules/@babel/core/node_modules/.json5-UaJFoph2',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/@babel/core/node_modules/.bin/json5': '/home/vagrant/Code/weibo/node_modules/@babel/core/node_modules/.bin/.json5-un16pPkL',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/@babel/parser': '/home/vagrant/Code/weibo/node_modules/@babel/.parser-l3pOlCV3',
+85 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/parser': '/home/vagrant/Code/weibo/node_modules/.bin/.parser-0pyTKn1f'
+85 silly reify }
+86 timing reify:retireShallow Completed in 514ms
+87 timing reify:createSparse Completed in 113ms
+88 timing reify:loadBundles Completed in 0ms
+89 http fetch POST 404 https://registry.npm.taobao.org/-/npm/v1/security/advisories/bulk 3144ms
+90 timing reifyNode:node_modules/de-indent Completed in 4583ms
+91 timing reifyNode:node_modules/rimraf Completed in 5405ms
+92 timing reifyNode:node_modules/import-local Completed in 5540ms
+93 timing reifyNode:node_modules/is-docker Completed in 5551ms
+94 timing reifyNode:node_modules/which Completed in 5643ms
+95 timing reifyNode:node_modules/mkdirp Completed in 5794ms
+96 timing reifyNode:node_modules/node-notifier/node_modules/which Completed in 5811ms
+97 timing reifyNode:node_modules/cross-env/node_modules/which Completed in 5896ms
+98 timing reifyNode:node_modules/ansi-html Completed in 6649ms
+99 timing reifyNode:node_modules/multicast-dns Completed in 6850ms
+100 http fetch POST 404 https://registry.npm.taobao.org/-/npm/v1/security/audits/quick 2421ms
+101 verbose audit error Error: 404 Not Found - POST https://registry.npm.taobao.org/-/npm/v1/security/audits/quick - [not_found] document not found
+101 verbose audit error     at /home/vagrant/.nvm/versions/node/v15.8.0/lib/node_modules/npm/node_modules/npm-registry-fetch/check-response.js:123:15
+101 verbose audit error     at async Map.[getReport] (/home/vagrant/.nvm/versions/node/v15.8.0/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/audit-report.js:310:21)
+101 verbose audit error     at async Map.run (/home/vagrant/.nvm/versions/node/v15.8.0/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/audit-report.js:103:19)
+101 verbose audit error  HttpErrorGeneral: 404 Not Found - POST https://registry.npm.taobao.org/-/npm/v1/security/audits/quick - [not_found] document not found
+101 verbose audit error     at /home/vagrant/.nvm/versions/node/v15.8.0/lib/node_modules/npm/node_modules/npm-registry-fetch/check-response.js:123:15
+101 verbose audit error     at async Map.[getReport] (/home/vagrant/.nvm/versions/node/v15.8.0/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/audit-report.js:310:21)
+101 verbose audit error     at async Map.run (/home/vagrant/.nvm/versions/node/v15.8.0/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/audit-report.js:103:19) {
+101 verbose audit error   headers: [Object: null prototype] {
+101 verbose audit error     server: [ 'Tengine' ],
+101 verbose audit error     'content-type': [ 'application/json; charset=utf-8' ],
+101 verbose audit error     'transfer-encoding': [ 'chunked' ],
+101 verbose audit error     connection: [ 'keep-alive' ],
+101 verbose audit error     date: [ 'Sun, 14 Feb 2021 02:46:21 GMT' ],
+101 verbose audit error     'x-current-requests': [ '1' ],
+101 verbose audit error     vary: [ 'Origin' ],
+101 verbose audit error     'x-readtime': [ '23' ],
+101 verbose audit error     'content-encoding': [ 'gzip' ],
+101 verbose audit error     'x-alicdn-da-ups-status': [ 'endOs,0,404' ],
+101 verbose audit error     via: [ 'cache58.l2et15-7[127,0], cache3.us16[332,0]' ],
+101 verbose audit error     'timing-allow-origin': [ '*' ],
+101 verbose audit error     eagleid: [ '2ff6119716132707817287979e' ],
+101 verbose audit error     'x-fetch-attempts': [ '1' ]
+101 verbose audit error   },
+101 verbose audit error   statusCode: 404,
+101 verbose audit error   code: 'E404',
+101 verbose audit error   method: 'POST',
+101 verbose audit error   uri: 'https://registry.npm.taobao.org/-/npm/v1/security/audits/quick',
+101 verbose audit error   body: {
+101 verbose audit error     error: '[not_found] document not found',
+101 verbose audit error     reason: '[not_found] document not found'
+101 verbose audit error   },
+101 verbose audit error   pkgid: undefined
+101 verbose audit error }
+102 silly audit error [object Object]
+103 timing auditReport:getReport Completed in 6941ms
+104 timing reify:audit Completed in 6942ms
+105 timing reifyNode:node_modules/cssesc Completed in 6941ms
+106 timing reifyNode:node_modules/semver Completed in 7038ms
+107 timing reifyNode:node_modules/regjsparser Completed in 7046ms
+108 timing reifyNode:node_modules/regjsparser/node_modules/jsesc Completed in 7080ms
+109 timing reifyNode:node_modules/miller-rabin Completed in 7134ms
+110 timing reifyNode:node_modules/errno Completed in 7146ms
+111 timing reifyNode:node_modules/jsesc Completed in 7446ms
+112 timing reifyNode:node_modules/webpack-dev-server/node_modules/semver Completed in 7510ms
+113 timing reifyNode:node_modules/sass-loader/node_modules/semver Completed in 7596ms
+114 timing reifyNode:node_modules/make-dir/node_modules/semver Completed in 7611ms
+115 timing reifyNode:node_modules/cross-env Completed in 7674ms
+116 timing reifyNode:node_modules/mime Completed in 7828ms
+117 timing reifyNode:node_modules/atob Completed in 7997ms
+118 timing reifyNode:node_modules/send/node_modules/mime Completed in 8137ms
+119 timing reifyNode:node_modules/he Completed in 8465ms
+120 timing reifyNode:node_modules/html-minifier Completed in 8556ms
+121 timing reifyNode:node_modules/sha.js Completed in 8875ms
+122 timing reifyNode:node_modules/browserslist Completed in 8910ms
+123 timing reifyNode:node_modules/concat Completed in 9172ms
+124 timing reifyNode:node_modules/uuid Completed in 9851ms
+125 timing reifyNode:node_modules/json5 Completed in 9911ms
+126 timing reifyNode:node_modules/js-yaml/node_modules/esprima Completed in 10394ms
+127 timing reifyNode:node_modules/esprima Completed in 10438ms
+128 timing reifyNode:node_modules/webpack-cli Completed in 11864ms
+129 timing reifyNode:node_modules/vue-template-compiler Completed in 12032ms
+130 timing reifyNode:node_modules/@babel/core/node_modules/json5 Completed in 12619ms
+131 timing reifyNode:node_modules/adjust-sourcemap-loader/node_modules/json5 Completed in 12701ms
+132 timing reifyNode:node_modules/node-notifier/node_modules/semver Completed in 14741ms
+133 timing reifyNode:node_modules/core-js-compat/node_modules/semver Completed in 14806ms
+134 timing reifyNode:node_modules/uglify-js Completed in 15417ms
+135 timing reifyNode:node_modules/js-yaml Completed in 15875ms
+136 timing reifyNode:node_modules/acorn Completed in 16371ms
+137 timing reifyNode:node_modules/node-notifier/node_modules/uuid Completed in 17064ms
+138 timing reifyNode:node_modules/webpack-dev-server Completed in 17149ms
+139 timing reifyNode:node_modules/@babel/parser Completed in 17167ms
+140 timing reifyNode:node_modules/svgo Completed in 17592ms
+141 timing reifyNode:node_modules/terser Completed in 17734ms
+142 timing reifyNode:node_modules/autoprefixer Completed in 17777ms
+143 timing reifyNode:node_modules/sass Completed in 19916ms
+144 timing reifyNode:node_modules/laravel-mix/node_modules/terser Completed in 20228ms
+145 timing reifyNode:node_modules/prettier Completed in 23236ms
+146 timing reifyNode:node_modules/webpack Completed in 24967ms
+147 timing reify:unpack Completed in 24972ms
+148 timing reify:unretire Completed in 170ms
+149 timing build:queue Completed in 37ms
+150 verbose reify failed optional dependency /home/vagrant/Code/weibo/node_modules/prettier
+151 silly reify mark deleted [
+151 silly reify   '/home/vagrant/Code/weibo/node_modules/prettier',
+151 silly reify   '/home/vagrant/Code/weibo/node_modules/.bin/prettier'
+151 silly reify ]
+152 timing build:link:node_modules/prettier Completed in 258ms
+153 timing reify:rollback:createSparse Completed in 6698ms
+154 timing reify:rollback:retireShallow Completed in 544ms
+155 timing command:install Completed in 41298ms
+156 verbose stack Error: EPROTO: protocol error, symlink '../@babel/parser/bin/babel-parser.js' -> '/home/vagrant/Code/weibo/node_modules/.bin/parser'
+157 verbose cwd /home/vagrant/Code/weibo
+158 verbose Linux 4.15.0-64-generic
+159 verbose argv "/home/vagrant/.nvm/versions/node/v15.8.0/bin/node" "/home/vagrant/.nvm/versions/node/v15.8.0/bin/npm" "install" "vue-template-compiler" "--save-dev" "--production=false"
+160 verbose node v15.8.0
+161 verbose npm  v7.5.1
+162 error code EPROTO
+163 error syscall symlink
+164 error path ../@babel/parser/bin/babel-parser.js
+165 error dest /home/vagrant/Code/weibo/node_modules/.bin/parser
+166 error errno -71
+167 error EPROTO: protocol error, symlink '../@babel/parser/bin/babel-parser.js' -> '/home/vagrant/Code/weibo/node_modules/.bin/parser'
+168 verbose exit -71
